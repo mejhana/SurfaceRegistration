@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "icp"
+version = "0.1.0"
+description = "iterative closest point algorithm for point cloud registration"
+authors = ["mejhana"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.1"
+trimesh = "^4.2.0"
+numpy = "^1.26.4"
+matplotlib = "^3.8.3"
+scikit-learn = "^1.4.1.post1"
+pyyaml = "^6.0.1"
+pandas = "^2.2.1"
+tqdm = "^4.66.2"
+pyglet = "<2.0"
+open3d = "^0.18.0"
+opencv-python = "^4.9.0.80"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
