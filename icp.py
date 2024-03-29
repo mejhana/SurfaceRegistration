@@ -11,7 +11,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 RES_PATH = "images/"
-MESH_PATH = "resources/bunny_v2"
+MESH_PATH = "resources/bunny"
 
 def point_to_point(matched_p: list, 
                    matched_q: list
