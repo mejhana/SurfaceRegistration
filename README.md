@@ -1,5 +1,6 @@
 # Surface Reconstruction using Iterative Closest Point (ICP)
 
+![results](images/icp.gif)
 In this project we reconstuct the surface of a bunny rabbit from meshes captured from 6 different angles: 0, 45, 90, 180, 270 and 315. Using the algorithm, the 6 meshes are merged into one. 
 
 ## Overview
